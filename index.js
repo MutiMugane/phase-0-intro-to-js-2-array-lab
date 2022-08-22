@@ -26,10 +26,7 @@ cats.pop();
 function destructivelyRemoveFirstCat(){
     cats.shift();
 }
-  function appendCat(){
-    const copyofcats = [...cats,"Broom"];
-    return copyofcats;
-  }
+  
 
   function prependCat (){
     const copyofcats = ["Arnold",...cats];
@@ -47,3 +44,7 @@ function destructivelyRemoveFirstCat(){
     return copyofcatswithslice;
   }
   
+  function appendCat(){
+    const copyofcats = [...cats,"Broom"];
+    return copyofcats;
+  }
